@@ -1,7 +1,9 @@
 
 import LightToggle from './components/LightToggle'
 import LottoNumbers from './components/LottoNumbers'
+import ClickCounter from './components/ClickCounter'
 import './App.css'
+
 
 function App() {
 
@@ -14,6 +16,10 @@ function App() {
 
         {/*Lotto Numbers */}
           <LottoNumbers />
+
+        {/*CLick Counter */}
+        <h2>Click Counter</h2>
+          <ClickCounter />
       </div>
     </>
   )
